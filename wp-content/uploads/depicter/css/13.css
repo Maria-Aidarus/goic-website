@@ -1,0 +1,194 @@
+
+.depicter-revert .depicter-13-element-10{
+	background-color:#3D5CFF;
+	border-radius:15px;
+}
+.depicter-revert .depicter-13-element-8{
+	font-size:41px;
+	text-align:center;
+	color:#000000;
+	font-family:"Rubik";
+	font-weight:600;
+	line-height:120%;
+	letter-spacing:-1px;
+	background-color:transparent;
+}
+.depicter-revert .depicter-13-element-12{
+	background-color:transparent;
+}
+.depicter-13-element-12 .depicter-bullet-item{
+	background-color:rgba(255, 255, 255, 0.7);
+	border-radius:10px 10px 10px 10px ;
+	width:10px;
+	height:10px;
+}
+.depicter-13-element-12 .depicter-bullet-item.depicter-bullet-active{
+	background-color:#3D5CFF;
+}
+.depicter-13-element-12 .depicter-bullets-wrapper{
+	gap:7px;
+	flex-direction:row;
+}
+.depicter-revert .depicter-13-element-7{
+	padding:5px 18px 5px 18px;
+	font-size:15px;
+	text-align:center;
+	color:#FFFFFF;
+	font-family:"Rubik";
+	font-weight:400;
+	box-shadow:0px 10px 25px 0px rgba(0, 0, 0, 0.2);
+	background-color:#3787FF;
+	border:none;
+	border-radius:14px;
+}
+.depicter-revert .depicter-13-element-7:not(.depicter-hover-off){
+	transition:all ease 0.5s;
+}
+.depicter-revert .depicter-13-element-7:not(.depicter-hover-off):hover {
+	color:#000000;
+	background-color:#FFFFFF;
+}
+.depicter-revert .depicter-13-element-6{
+	font-size:14px;
+	color:#111111;
+	font-family:"Rubik";
+	font-weight:300;
+	background-color:transparent;
+}
+.depicter-revert .depicter-13-element-5{
+	font-size:13px;
+	color:#FFFFFF;
+	font-family:"Rubik";
+	font-weight:300;
+	background-color:transparent;
+	gap:0 5px;
+}
+.depicter-revert .depicter-13-element-5:not(.depicter-hover-off){
+	transition:all ease 0.5s;
+}
+.depicter-revert .depicter-13-element-5:not(.depicter-hover-off):hover {
+	color:#FFFFFF;
+	background-color:#3787FF;
+}
+.depicter-13-element-5 .depicter-tag-item{
+	padding:4px 12px 4px 12px;
+	background-color:#121212;
+	border-radius:20px;
+}
+.depicter-13-element-5 .depicter-tag-item:not(.depicter-hover-off){
+	transition:all ease 0.5s;
+}
+.depicter-13-element-5 .depicter-tag-item:not(.depicter-hover-off):hover {
+	background-color:transparent;
+}
+.depicter-revert .depicter-13-element-4{
+	font-size:31px;
+	color:#111111;
+	font-family:"Rubik";
+	font-weight:300;
+	line-height:119%;
+	background-color:transparent;
+}
+.depicter-revert .depicter-13-element-4:not(.depicter-hover-off){
+	transition:all ease 0.5s;
+}
+.depicter-revert .depicter-13-element-4:not(.depicter-hover-off):hover {
+	color:#3787FF;
+	background-color:transparent;
+}
+.depicter-revert .depicter-13-element-2{
+	box-shadow:0px 10px 35px 0px rgba(0, 0, 0, 0.18);
+	border-radius:40px;
+}
+.depicter-revert .depicter-13-element-2:not(.depicter-hover-off){
+	transition:all ease 0.3s;
+}
+.depicter-revert .depicter-13-element-2:not(.depicter-hover-off):hover {
+	transform:scale(0.95);
+}
+.depicter-revert .depicter-13-element-3{
+	background-color:#212121;
+}
+.depicter-revert .depicter-13-section-1 .depicter-section-background{
+	background-color:#FFFFFF;
+}
+
+/***** Tablet *****/
+@media screen and (max-width: 1024px){
+
+.depicter-revert .depicter-13-element-3{
+	background-color:#212121;
+}
+
+}
+/***** Mobile *****/
+@media screen and (max-width: 767px){
+
+.depicter-revert .depicter-13-element-10{
+	background-color:#3D5CFF;
+}
+.depicter-revert .depicter-13-element-8{
+	font-size:29px;
+	text-align:center;
+	color:#000000;
+	font-family:"Rubik";
+	font-weight:600;
+	line-height:120%;
+	letter-spacing:-1px;
+	background-color:transparent;
+}
+.depicter-revert .depicter-13-element-12{
+	background-color:transparent;
+}
+.depicter-13-element-12 .depicter-bullet-item{
+	background-color:rgba(255, 255, 255, 0.7);
+}
+.depicter-13-element-12 .depicter-bullet-item.depicter-bullet-active{
+	background-color:#3D5CFF;
+}
+.depicter-revert .depicter-13-element-7{
+	font-size:13px;
+	text-align:center;
+	color:#FFFFFF;
+	font-family:"Rubik";
+	font-weight:400;
+	background-color:#3787FF;
+	border-radius:8px;
+}
+.depicter-revert .depicter-13-element-6{
+	font-size:14px;
+	color:#111111;
+	font-family:"Rubik";
+	font-weight:400;
+	background-color:transparent;
+}
+.depicter-revert .depicter-13-element-5{
+	font-size:13px;
+	color:#FFFFFF;
+	font-family:"Rubik";
+	font-weight:400;
+	background-color:transparent;
+}
+.depicter-13-element-5 .depicter-tag-item{
+	background-color:#121212;
+}
+.depicter-revert .depicter-13-element-4{
+	font-size:20px;
+	text-align:center;
+	color:#111111;
+	font-family:"Rubik";
+	font-weight:700;
+	line-height:121%;
+	background-color:transparent;
+}
+.depicter-revert .depicter-13-element-2{
+	border-radius:25px;
+}
+.depicter-revert .depicter-13-element-3{
+	background-color:#212121;
+}
+.depicter-revert .depicter-13-section-1 .depicter-section-background{
+	background-color:#FFFFFF;
+}
+
+}

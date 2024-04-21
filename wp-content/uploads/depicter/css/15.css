@@ -1,0 +1,102 @@
+
+.depicter-15-element-25 .depicter-symbol-container{
+	fill:#000000;
+	transform:scale( 0.55 );
+}
+.depicter-15-element-25:hover .depicter-symbol-container{
+	transform:scale( 0.55 );
+}
+.depicter-15-element-29 .depicter-bullet-item{
+	background-color:rgba(0, 0, 0, 0.5);
+	border-radius:5px 5px 5px 5px ;
+	width:9px;
+	height:9px;
+}
+.depicter-15-element-29 .depicter-bullet-item.depicter-bullet-active{
+	background-color:#000000;
+}
+.depicter-15-element-29 .depicter-bullets-wrapper{
+	gap:5px;
+	flex-direction:row;
+}
+.depicter-15-element-30 .depicter-symbol-container{
+	fill:#000000;
+	transform:scale( 0.548 );
+}
+.depicter-15-element-30:hover .depicter-symbol-container{
+	transform:scale( 0.548 );
+}
+.depicter-revert .depicter-15-element-18{
+	font-size:17px;
+	color:#06136F;
+	font-family:"Helvetica";
+	font-weight:400;
+}
+.depicter-revert .depicter-15-element-4{
+	font-size:22px;
+	text-align:justify;
+	color:#06136F;
+	font-family:"Helvetica";
+	font-weight:400;
+	line-height:150%;
+	text-transform:capitalize;
+	background-color:transparent;
+}
+.depicter-revert .depicter-15-element-4:not(.depicter-hover-off){
+	transition:all ease 0.5s;
+}
+.depicter-revert .depicter-15-element-4:not(.depicter-hover-off):hover {
+	color:#10B3AF;
+	background-color:transparent;
+	border-color:#000000;
+}
+.depicter-revert .depicter-15-element-2{
+	box-shadow:0px 5px 45px 0px rgba(0, 0, 0, 0.15);
+	border-radius:10px;
+}
+.depicter-revert .depicter-15-section-1 .depicter-section-background{
+	background-color:#FFFFFF;
+}
+
+/***** Tablet *****/
+@media screen and (max-width: 1024px){
+
+.depicter-revert .depicter-15-element-4{
+	font-size:22px;
+	text-align:justify;
+	color:#06136F;
+	font-family:"Helvetica";
+	font-weight:400;
+	line-height:150%;
+	text-transform:capitalize;
+	background-color:transparent;
+}
+.depicter-revert .depicter-15-section-1 .depicter-section-background{
+	background-color:#FFFFFF;
+}
+
+}
+/***** Mobile *****/
+@media screen and (max-width: 767px){
+
+.depicter-revert .depicter-15-element-18{
+	font-size:14px;
+}
+.depicter-revert .depicter-15-element-4{
+	font-size:20px;
+	text-align:justify;
+	color:#06136F;
+	font-family:"Helvetica";
+	font-weight:400;
+	line-height:140%;
+	text-transform:capitalize;
+	background-color:transparent;
+}
+.depicter-revert .depicter-15-element-2{
+	box-shadow:0px 5px 36px 0px rgba(0, 0, 0, 0.15);
+}
+.depicter-revert .depicter-15-section-1 .depicter-section-background{
+	background-color:#FFFFFF;
+}
+
+}

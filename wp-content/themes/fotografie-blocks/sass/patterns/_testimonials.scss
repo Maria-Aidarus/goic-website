@@ -1,0 +1,59 @@
+/* --- Block Testimonials
+-------------------------------------------------------- */
+
+.wp-block-clients-testimonial {
+    .wp-block-group-content {
+        position: relative;
+        &:before {
+            color: var(--wp--preset--color--foreground);
+            font-family: "georgia";
+            content: "\201C";
+            display: block;
+            float: left;
+            font-size: 91px;
+            font-style: normal;
+            font-weight: 500;
+            height: 0;
+            line-height: 1;
+            position: absolute;
+            right: auto;
+            left: 50%;
+            top: -8px;
+            transform: translateX(-50%);
+
+        }
+    }
+}
+
+
+/* --- Block Testimonials Default
+-------------------------------------------------------- */
+.wp-block-clients-testimonial-default {
+    .wp-block-group-content {
+        position: relative;
+        padding: var(--wp--custom--spacing--wp-footer-vertical);
+        padding-left: var(--wp--custom--spacing--header-media-space);
+        padding-left: clamp(100px,8vw,140px);
+        background-color: var(--wp--preset--color--secondary);
+        &:before {
+            background-color: var(--wp--preset--color--border-color);
+            font-family: "arial";
+            height: 56px;
+            font-size: 105px;
+            left: 0;
+            top: 25%;
+            transform: none;
+            padding: clamp(14px, 3.5vw, 21px);
+        }
+        .wp-block-heading + p {
+            font-style: italic;
+        }
+    }
+}
+
+.wp-block-section:nth-child(2n-1).wp-block-clients-testimonial-default {
+    .wp-block-group-content {
+            position: relative;
+            background-color: var(--wp--preset--color--background);
+    }
+}

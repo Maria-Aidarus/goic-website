@@ -1,0 +1,40 @@
+/*
+Theme Name: Fotografie Blocks
+Theme URI: https://catchthemes.com/themes/fotografie-blocks
+Author: Catch Themes
+Author URI: https://catchthemes.com
+Description: Fotografie Blocks is a free modern and creative photography WordPress block theme. It is ideal for professional or freelance photographers, travel journalists, graphic designers, amateur photographers, or photojournalists who want an online foothold for their work. This theme is the block version of our popular theme “Fotografie”. And, this theme is perfect for building a gallery or portfolio website. With its amazing layouts, you can showcase your high-res photography beautifully. The theme comes with a dark and light color scheme which expands your presentation options. With its full site editing features, you can easily customize your site easily. There are 17+ different block patterns, 16 Templates, and 9 Template Parts available in this theme. Some of the block patterns are 404 Header, Archive Header, Blog Header, Footer, Footer Three Columns, Header, Header Media Top, Hidden Blog, Post Header, Recent Blog Posts, Search Header, Shop Header, Sidebar Products, and many more. The theme offers many customizable options that let you showcase visual works in a captivating way. Its impressive navigational experience will keep the visitors coming back for more. This theme is fully responsive, user-friendly, and highly customizable.
+Requires at least: 5.9
+Tested up to: 6.4
+Requires PHP: 5.6
+Version: 1.0.2
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: fotografie-blocks
+Tags: blog, portfolio, photography, one-column, two-columns, left-sidebar, right-sidebar, block-patterns, block-styles, custom-background, custom-logo, custom-menu, featured-images, footer-widgets, full-site-editing,  threaded-comments, wide-blocks, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+Fotografie Blocks is based on Catch FSE WordPress Theme, 2012-2023 Catchthemes.com
+Catch FSE is distributed under the terms of the GNU GPL.
+*/
+
+
+/*--------------------------------------------------------------
+# Blocks
+--------------------------------------------------------------*/
+@import "sass/blocks/all-blocks";
+
+/*--------------------------------------------------------------
+# Components
+--------------------------------------------------------------*/
+@import "sass/patterns/all-patterns";
+
+/* --- Block Media Quries
+-------------------------------------------------------- */
+@import 'sass/media-query';
+
+/* --- Block Color
+-------------------------------------------------------- */
+@import 'sass/color';

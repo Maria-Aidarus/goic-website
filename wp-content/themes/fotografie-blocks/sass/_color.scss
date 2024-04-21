@@ -1,0 +1,149 @@
+/* --- 6
+-------------------------------------------------------- */
+
+/* Foreground color */
+.wp-block-navigation__responsive-container-open,
+.wp-block-navigation__responsive-container-close,
+.woocommerce ul#shipping_method li,
+.woocommerce .cart_totals p,
+.woocommerce-cart .cart-collaterals .cart_totals tr td,
+.wc-block-mini-cart__button,
+.wp-block-main-header .is-style-outline>.wp-block-button__link:not(.has-text-color),
+.woocommerce.single-product div.product p.price del {
+  color: var(--wp--preset--color--foreground);
+}
+
+.wp-block-navigation__responsive-container-open,
+.wp-block-navigation__responsive-container-close,
+.wp-block-post-comments .comment-metadata a {
+  &:hover {
+    color: var(--wp--preset--color--primary);
+  }
+}
+
+/* Primary color */
+.wp-product-showcase .wp-block-column,
+.wp-thumbnail-product .wp-product-cateogry-block,
+.woocommerce div.product div.images.woocommerce-product-gallery {
+  background-color: var(--wp--preset--color--secondary);
+}
+
+/* Secondary Color */
+.wp-block-tag-cloud>a:hover,
+.wp-block-tag-cloud>a:focus,
+.service-columns.wp-block-columns>.wp-block-column,
+.pricing-columns.wp-block-columns>.wp-block-column,
+.wp-block-navigation:not(.has-background) .wp-block-navigation__responsive-container.is-menu-open {
+  background-color: var(--wp--preset--color--secondary);
+}
+
+/* Arrow Wood Color */
+.wp-block-section:nth-child(2n-1).wp-featured-product-slider,
+.wp-featured-product-slider {
+  background-color: var(--wp--preset--color--primary);
+}
+
+/* Dune Color */
+.wp-block-tag-cloud>a {
+  color: var(--wp--preset--color--dune);
+}
+
+.wp-block-navigation .current-menu-item > .wp-block-navigation-item__content.wp-block-navigation-item__content,
+.wp-block-navigation .wp-block-navigation-submenu.current-menu-item>.wp-block-navigation__submenu-icon svg {
+  color: var(--wp--preset--color--primary);
+}
+
+
+/* Deep Orange Color */
+.wp-block-post-template .wp-block-post-container .wp-block-post-excerpt .wp-block-post-excerpt__more-link:hover,
+.wp-block-tag-cloud>a:hover,
+.wp-block-navigation .wp-block-navigation-item__content.wp-block-navigation-item__content:hover,
+.wp-block-navigation .has-child > .wp-block-navigation-item__content.wp-block-navigation-item__content:hover + button svg {
+  color: var(--wp--preset--color--primary);
+  stroke: var(--wp--preset--color--primary);
+}
+
+.wp-block-navigation .has-child .wp-block-navigation-item:hover {
+  background-color: var(--wp--preset--color--secondary);
+}
+
+.wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container {
+  color: currentColor;
+}
+
+/* Body color */
+
+.wp-block-widget .wp-block-navigation .wp-block-navigation-item__content,
+.wp-block-widget .wp-block-navigation__responsive-container .wp-block-navigation-link a,
+.wc-block-product-categories ul.wc-block-product-categories-list li::before {
+  color: var(--wp--preset--color--foreground);
+}
+
+/* Link color */
+.woocommerce table.shop_table .product-name a:hover,
+.woocommerce table.shop_table .product-name a:focus,
+.wp-latest-products-block .wc-block-grid__product .wc-block-grid__product-title:hover,
+.wp-latest-products-block .wc-block-grid__product .wc-block-grid__product-title:focus,
+.wp-block-widget .wp-block-navigation .wp-block-navigation-item__content:hover,
+.wp-block-widget .wp-block-navigation .wp-block-navigation-item__content:focus,
+.wp-block-widget .wp-block-navigation__responsive-container .wp-block-navigation-link a:hover,
+.wp-block-widget .wp-block-navigation__responsive-container .wp-block-navigation-link a:focus,
+.wp-block-main-header .wp-block-fotografie-blocks-header-search button.wp-block-search__button.has-icon svg:hover,
+.wp-block-main-header .wp-block-fotografie-blocks-header-search button.wp-block-search__button.has-icon svg:focus,
+.wc-block-mini-cart__shopping-button a,
+.content>.video-play:hover span,
+.wp-block-widget-area .wp-block-latest-posts__post-author,
+.wp-block-widget-area .wp-block-latest-posts__post-date {
+  color: var(--wp--preset--color--meta);
+}
+
+a:hover svg.icon,
+a:focus svg.icon,
+.fotografie-blocks-icons svg:hover,
+.fotografie-blocks-icons svg:focus,
+.fotografie-blocks-icons a:hover svg,
+.fotografie-blocks-icons a:focus svg,
+.wp-block-main-header .wp-block-fotografie-blocks-header-search button.wp-block-search__button.has-icon svg:hover,
+.wp-block-main-header .wp-block-fotografie-blocks-header-search button.wp-block-search__button.has-icon svg:focus,
+.content>.video-play:hover svg {
+  fill: var(--wp--preset--color--text-link);
+}
+
+.wc-block-mini-cart__shopping-button a {
+  border-color: var(--wp--preset--color--text-link);
+}
+
+/* Border Color */
+.wp-block-tag-cloud>a,
+.wp-block-table table td,
+.wp-block-testimonial .wp-block-separator,
+.woocommerce .woocommerce-result-count,
+.wp-site-blocks .wp-block-section:last-child.wp-woocommerce-shipping {
+  border-color: var(--wp--preset--color--border-color);
+}
+
+.wp-block-testimonial .wp-group-content:before,
+.wp-block-separator {
+  color: var(--wp--preset--color--border-color);
+}
+
+/* Light Color */
+.header-media-inner-post .wp-block-cover.is-light .wp-block-cover__inner-container,
+.wp-block-fotografie-blocks-header-search .wp-block-search__inside-wrapper svg {
+  color: var(--wp--preset--color--color-light);
+}
+
+.wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container {
+  background-color: var(--wp--preset--color--background);
+}
+
+.wp-block-social-links:not(.is-style-logos-only):not(.is-style-pill-shape):not(.is-style-circle-shape) .wp-social-link .components-button:hover,
+.wp-block-social-links:not(.is-style-logos-only):not(.is-style-pill-shape):not(.is-style-circle-shape) .wp-social-link .components-button:focus,
+.wp-block-social-links:not(.is-style-logos-only):not(.is-style-pill-shape):not(.is-style-circle-shape) .wp-social-link a:hover,
+.wp-block-social-links:not(.is-style-logos-only):not(.is-style-pill-shape):not(.is-style-circle-shape) .wp-social-link a:focus,
+.wp-block-social-links.is-style-default .wp-social-link .components-button:hover,
+.wp-block-social-links.is-style-default .wp-social-link .components-button:focus,
+.wp-block-social-links.is-style-default .wp-social-link a:hover,
+.wp-block-social-links.is-style-default .wp-social-link a:focus {
+  background-color: var(--wp--preset--color--primary);
+}
